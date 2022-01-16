@@ -1,0 +1,173 @@
+body {
+    font-family: 'muliregular';
+    box-sizing: border-box;
+    color: rgb(54, 54, 54);
+    margin: 0;
+}
+
+.content {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2,
+h1 {
+    font-size: 1.4em;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.4;
+}
+.contact-button {
+    padding: 15px 50px!important;
+}
+.image1 {
+    max-width: 95%;
+}
+.banner-image {
+    margin:  20px auto;
+    width: 90%;
+    height: 360px;
+    background: no-repeat top center url("./img/960x443-LP-header.png");
+    background-size: contain;
+}
+
+.content-block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+.products-block {
+    margin: 3rem 10%;
+    align-items: center;
+}
+
+.product-details {
+    width: 70%;
+
+}
+
+.content-text {
+    width: 50%;
+}
+
+.products-footer {
+    position: relative;
+}
+
+.button-content {
+    color: white;
+    background-color: rgb(255, 175, 25);
+    font-size: 1.3em;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 20px;
+    margin: 15px 0;
+}
+
+.coming-soon {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.ready-banner {
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+}
+.ready-banner h2 {
+    font-size: 1.8em;
+    line-height: 1.4;
+    letter-spacing: 3px;
+}
+.advantages {
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+}
+.advantages h3, .advantages p {
+    margin: 0;
+}
+.icons {
+    margin: auto 10px;
+}
+
+.icon-text {
+    width: 75%;
+}
+
+@media (max-width:768px) {
+
+    div,
+    section,
+    p,
+    h1,
+    h2 {
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+        margin: 20px 10px;
+    }
+
+    .content-text {
+        width: 100%;
+    }
+    .content-block {
+        justify-content: center;
+    }
+    img {
+        margin: auto auto;
+    }
+
+    .product-details {
+        width: 100%;
+
+    }
+    .ready-banner h2 {
+        font-size: 1.2em!important;
+        
+    }
+    .ready-banner button {
+        font-size: 1em!important;
+    }
+    .ready-banner {
+        margin-bottom: 2rem;
+        top: 51%;
+    }
+    .contact-button {
+        padding: 5px 50px!important;
+    }
+    .bottom-margin {
+        margin-bottom: 60px;
+    }
+    .button-content {
+        font-size: 1.2em;
+    }
+}
