@@ -142,6 +142,9 @@ p {
     .content-block {
         justify-content: center;
     }
+    .content .first-section {
+        margin-top: -175px;
+    }
     img {
         margin: auto auto;
     }
